@@ -49,9 +49,7 @@ News pipeline consists news monitor, web scraper and news deduper, news is sent 
 A click log processor is built to implement a time decay model. If a news topic is clicked, p = (1-α)p + α, if not, p = (1-α)p, Where p is the selection probability, and α is the degree of weight decrease. The result of this is that the nth most recent selection will have a weight of (1-α)^n.    
 ![image](pictures/recommendation.jpeg)
 
-### Authors
 
-* **Zhekai Jin**
 
 
 
